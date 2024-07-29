@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+     <head>
+          <meta charset="UTF-8" />
+          <meta
+               name="viewport"
+               content="width=device-width, initial-scale=1.0"
+          />
+          <link rel="preconnect" href="https://fonts.googleapis.com" />
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+          <link
+               href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+               rel="stylesheet"
+          />
+          <title>Form</title>
+          <link rel="stylesheet" href="./Form.css" />
+     </head>
+     <body>
+          <h1>Registration Form</h1>
+          <form action="">
+               <ul>
+                    <li>
+                         <label for="fullName">Full Name</label>
+                         <input
+                              type="text"
+                              name="fullName"
+                              id="fullName"
+                              required
+                         />
+                    </li>
+                    <li>
+                         <label for="email">E-mail</label>
+                         <input type="email" name="email" id="email" />
+                    </li>
+                    <li>
+                         <label for="confirm-email">Confirm E-mail</label>
+                         <input
+                              type="email"
+                              name="confirm-email"
+                              id="confirm-email"
+                              required
+                         />
+                    </li>
+                    <li>
+                         <label for="password">Password</label>
+                         <input
+                              type="password"
+                              name="password"
+                              id="password"
+                              required
+                         />
+                    </li>
+               </ul>
+
+               <ul>
+                    <li>
+                         <label for="">Date of Birth</label>
+                         <input type="date" name="" id="" />
+                    </li>
+               </ul>
+
+               <ul class="align_radius">
+                    <p class="paragrpah">Gender</p>
+                    <li class="otherstyles">
+                         <label for="male"> Male</label>
+                         <input type="radio" id="male" name="male_female" />
+                    </li>
+
+                    <li class="otherstyles">
+                         <label for="female"> Female</label>
+                         <input type="radio" id="female" name="male_female" />
+                    </li>
+               </ul>
+
+               <ul class="align_radius">
+                    <p class="paragrpah">Colors</p>
+                    <li class="otherstyles">
+                         <label for="red"> Red</label>
+                         <input type="checkbox" id="red" name="colorName" />
+                    </li>
+                    <li class="otherstyles">
+                         <label for="green"> Green</label>
+                         <input type="checkbox" id="green" name="colorName" />
+                    </li>
+                    <li class="otherstyles">
+                         <label for="blue"> Blue</label>
+                         <input type="checkbox" id="blue" name="colorName" />
+                    </li>
+               </ul>
+               <ul class="selectColor">
+                    <li>
+                         <label for="selectColor">
+                              Select Your Favorite Color</label
+                         >
+                         <select name="checkbox" id="selectColor">
+                              <option value="">Red</option>
+                              <option value="">Blue</option>
+                              <option value="">Green</option>
+                         </select>
+                    </li>
+               </ul>
+               <button class="btn">Submit</button>
+               <p><a class="link" href="/Login.html">Login Instead</a></p>
+          </form>
+     </body>
+</html>
